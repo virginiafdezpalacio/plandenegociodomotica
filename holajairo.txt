@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+printf("¡Hola, Jairo!\n");
+printf("Hola, Virginia\n");
+return 0;
+}
