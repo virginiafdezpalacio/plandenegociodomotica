@@ -46,7 +46,8 @@ int main() {
             luces_servicio=1;
             break;
     }
-    else{
+        
+    } else{
     switch (opcion) {
         case '1':
             luces_salon=0;
