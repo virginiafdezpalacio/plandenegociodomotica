@@ -65,7 +65,7 @@ void main() {
             luces_servicio=0;
             break;
     }
-
+   } 
     
 
 }
