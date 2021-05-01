@@ -4,7 +4,13 @@
 
 int main() {
 
-    int opcion, luces_salon, luces_cocina, luces_dormitorio1, luces_dormitorio2, luces_baño, on_off;
+    int opcion;
+    int luces_salon;
+    int luces_cocina;
+    int luces_dormitorio1;
+    int luces_dormitorio2;
+    int luces_baño;
+    int on_off;
     
     printf("OPCIÓN 1 - SALÓN");
     printf("/n");
@@ -17,10 +23,10 @@ int main() {
     printf("OPCIÓN 5 - BAÑO");
     printf("/n");
     printf("Ingrese grupo de luminarias:");
-    scanf("%c", &opcion);
+    scanf("%d", &opcion);
     printf("/n);
     printf("Para encender pulse 1, para apagar pulse 0");
-    scanf("%c", &on_off);
+    scanf("%d", &on_off);
 
     if(on_off==1){
     switch (opcion) {
