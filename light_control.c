@@ -2,7 +2,7 @@
 
 
 
-int main() {
+void main() {
 
     int opcion;
     int luces_salon;
