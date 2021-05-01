@@ -24,8 +24,8 @@ int main() {
     printf("/n");
     printf("Ingrese grupo de luminarias:");
     scanf("%d", &opcion);
-    printf("/n);
-    printf("Para encender pulse 1, para apagar pulse 0");
+    printf("/n");
+    printf("Para encender pulse UNO, para apagar pulse CERO");
     scanf("%d", &on_off);
 
     if(on_off==1){
