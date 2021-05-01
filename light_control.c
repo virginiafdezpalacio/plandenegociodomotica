@@ -9,7 +9,7 @@ int main() {
     int luces_cocina;
     int luces_dormitorio1;
     int luces_dormitorio2;
-    int luces_baño;
+    int luces_servicio;
     int on_off;
     
     printf("OPCIÓN 1 - SALÓN");
@@ -20,7 +20,7 @@ int main() {
     printf("/n");
     printf("OPCIÓN 4 - DORMITORIO 2");	
     printf("/n");
-    printf("OPCIÓN 5 - BAÑO");
+    printf("OPCIÓN 5 - SERVICIO");
     printf("/n");
     printf("Ingrese grupo de luminarias:");
     scanf("%d", &opcion);
@@ -43,7 +43,7 @@ int main() {
             luces_dormitorio2=1;
             break;
         case '5':
-            luces_baño=1;
+            luces_servicio=1;
             break;
     }
     else{
@@ -61,7 +61,7 @@ int main() {
             luces_dormitorio2=0;
             break;
         case '5':
-            luces_baño=0;
+            luces_servicio=0;
             break;
     }
 
